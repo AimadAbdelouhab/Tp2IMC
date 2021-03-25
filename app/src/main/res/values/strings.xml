@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">IMC Calculator</string>
+    <string name="I_Poids">Indiquez Votre Poids :</string>
+    <string name="Poids">Poids:</string>
+    <string name="I_Taille">Indiquez Votre Taille :</string>
+    <string name="Taille">Taille :</string>
+    <string name="Metre">Mètre</string>
+    <string name="Cm">Centimètre</string>
+    <string name="Appreciation">Appéciation</string>
+    <string name="Calculer">Calculer Votre IMC</string>
+    <string name="Resultat">Résultat :</string>
+    <string name="Cliquer">Vous devez cliquer sur le bouton « Calculer l\'IMC » pour obtenir un résultat.</string>
+    <string name="Reset">Reset</string>
+
+</resources>

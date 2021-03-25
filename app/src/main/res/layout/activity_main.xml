@@ -1,0 +1,94 @@
+<?xml version= "1.0" encoding= "utf-8" ?>
+<LinearLayout xmlns:android= "http://schemas.android.com/apk/res/android"
+    android:layout_width= "fill_parent"
+    android:layout_height= "fill_parent"
+    android:orientation= "vertical" >
+    <TextView
+        android:layout_width= "fill_parent"
+        android:layout_height= "wrap_content"
+        android:text= "@string/I_Poids"
+        android:textStyle= "bold"
+        android:textColor= "#14254E"
+        android:gravity= "center"/>
+    <EditText
+        android:id= "@+id/poids"
+        android:layout_width= "fill_parent"
+        android:layout_height= "wrap_content"
+        android:hint= "@string/Poids"
+        android:inputType= "numberDecimal"
+        />
+    <TextView
+        android:layout_width= "fill_parent"
+        android:layout_height= "wrap_content"
+        android:text= "@string/I_Taille"
+        android:textStyle= "bold"
+        android:textColor= "#14254E"
+        android:gravity= "center"
+        />
+    <EditText
+        android:id= "@+id/taille"
+        android:layout_width= "fill_parent"
+        android:layout_height= "wrap_content"
+        android:hint= "Taille :"
+        android:inputType= "numberDecimal"
+        />
+    <RadioGroup
+        android:id= "@+id/group"
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"
+        android:checkedButton= "@+id/radio_centimetre"
+        android:orientation= "horizontal"
+        android:layout_gravity= "center_horizontal" >
+        <RadioButton
+            android:id= "@+id/radio_metre"
+            android:layout_width= "wrap_content"
+            android:layout_height= "wrap_content"
+            android:text= "@string/Metre"
+            />
+        <RadioButton
+            android:id= "@+id/radio_centimetre"
+            android:layout_width= "wrap_content"
+            android:layout_height= "wrap_content"
+            android:text= "@string/Cm"
+            />
+    </RadioGroup >
+    <CheckBox
+        android:id= "@+id/commentaire"
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"
+        android:text= "@string/Appreciation"
+        />
+    <LinearLayout
+        android:orientation= "horizontal"
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"
+        android:layout_gravity= "center_horizontal" >
+        <Button
+            android:id= "@+id/calcul"
+            android:layout_width= "wrap_content"
+            android:layout_height= "wrap_content"
+            android:text= "@string/Calculer"
+            android:enabled="false"
+            />
+
+    </LinearLayout >
+    <TextView
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"
+        android:text= "@string/Resultat"
+        />
+    <TextView
+        android:id= "@+id/result"
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"
+        android:text= "@string/Cliquer"
+        />
+
+    <Button
+        android:id= "@+id/reset"
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"
+        android:layout_gravity= "center_horizontal"
+        android:text= "@string/Reset"
+        />
+</LinearLayout >

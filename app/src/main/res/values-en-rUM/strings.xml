@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IMC Calculator</string>
+    <string name="I_Poids">Enter Your weight :</string>
+    <string name="Poids">Weight :</string>
+    <string name="I_Taille">Enter Your Height :</string>
+    <string name="Taille">Height :</string>
+    <string name="Metre">Metre</string>
+    <string name="Cm">Centimetre</string>
+    <string name="Appreciation">Appreciation</string>
+    <string name="Calculer">"Calculate Your MCI "</string>
+    <string name="Resultat">Result</string>
+    <string name="Cliquer">You Have To Click On  « Calculate Your MCI » To Get a Result</string>
+    <string name="Reset">Reset</string>
+</resources>
